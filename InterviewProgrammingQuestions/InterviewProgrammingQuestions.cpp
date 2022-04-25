@@ -165,12 +165,12 @@ int main()
 	if( !testSum( cout ) )
 		return 1;
 
-	cin.get();
+	//cin.get();
 	cout << "Question 2: Given a set of dependent services, write code which detects circular references and returns the node(s) where circular references occur." << endl;
 	if( !testCircularDependencies( cout ) )
 		return 2;
 
-	cin.get();
+	//cin.get();
 	cout << "Create an algorithm which takes in two coordinates as parameters and determines whether it misses, hits, already selected, or sunk the ship." << endl;
 	if( !testShipSinking( cout ) )
 		return 3;

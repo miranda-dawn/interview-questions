@@ -8,9 +8,9 @@
 #include <tuple>
 #include <ostream>
 
-// Given a 2D array( think map ) with “ships” of varying sizes occupying spaces in the array.
-//Create an algorithm which takes in two coordinates as parameters and determine if the coordinates “Miss”, “Hit <ship name>”, “Already Selected”, 
-// or , if the “last spot” of a ship was hit, then “Sunk <ship name>”.
+// Given a 2D array( think map ) with "ships" of varying sizes occupying spaces in the array.
+//Create an algorithm which takes in two coordinates as parameters and determine if the coordinates "Miss", "Hit <ship name>", "Already Selected", 
+// or, if the "last spot" of a ship was hit, then "Sunk <ship name>".
 
 // This seems to lend itself nicely to an object-oriented paradigm. I'll do a 2D unsigned int array to represent the board, with 0 for empty and 1 for hit?
 
@@ -124,13 +124,5 @@ private:
 
 	void initMapStatus();
 };
-
-
-
-
-
-
-
-
 
 #endif
